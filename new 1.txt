@@ -1,0 +1,30 @@
+create table student(
+    stuid int,
+    stuname varchar(50),
+    stuage int
+	);
+
+
+
+
+
+
+select * from student;
+
+
+
+				alter table student add(
+    stippend int,
+    adress varchar(50)
+
+);
+
+
+		select * from student;
+		
+		insert into student(stippend,adress) values(3000,'Nashik');
+		
+		alter table student drop(
+    stippend,
+    adress
+);
